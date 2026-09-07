@@ -1,135 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Contato Pets & Cecis">
+
+    <title>
+        Pets & Cecis | Contato
+    </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="css/style.css">
+
+</head>
 
 
+<body>
+
+    <!-- Acessibilidade -->
+    <a class="skip-link"
+        href="#conteudo">
+
+        Pular para o conteúdo principal
+
+    </a>
 
 
-        <h1>Contatos</h1>
-        <header>
-            <p>Tudo para cuidar do seu melhor amigo!</p>
+    <!-- CABEÇALHO -->
+    <header>
 
-            <nav>
-                <a href="index.html">Início</a>
-                <a href="produtos.petsececis.html">Produtos</a>
-                <a href="serviços.petsececis.html">Serviços</a>
-                <a href="contatos.petsececis.html">Contato</a>
-            </nav>
-        </header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top"
+            aria-label="Navegação principal">
 
-        <hr>
-        <section>
+            <div class="container">
 
-            <h3>Fale com a Pets & Cecis</h3>
+                <a class="navbar-brand fw-bold"
+                    href="index.html">
 
-            <p>
-                Entre em contato conosco para tirar dúvidas,
-                obter informações sobre produtos ou agendar
-                nossos serviços.
-            </p>
+                    🐾 PETS & CECIS
 
-            <p>
-                <strong>Telefone:</strong>
-                (11) 99999-9999
-            </p>
+                </a>
 
-            <p>
-                <strong>E-mail:</strong>
-                contato@petsececis.com.br
-            </p>
 
-            <p>
-                <strong>Endereço:</strong>
-                Rua dos dogs e cats, 100 - São Paulo - SP
-            </p>
+                <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menu"
+                    aria-controls="menu"
+                    aria-expanded="false"
+                    aria-label="Abrir menu">
 
-            <p>
-                <strong>Horário de funcionamento:</strong>
-                Segunda a sábado, das 09h às 18h.
-            </p>
+                    <span class="navbar-toggler-icon"></span>
 
-        </section>
+                </button>
 
-        <section>
 
-            <h3>Envie uma mensagem</h3>
+               <div class="collapse navbar-collapse"
+                    id="menu">
 
-            <form>
+                    <ul class="navbar-nav ms-auto">
 
-                <p>
-                    <label for="nome">Nome:</label><br>
-                    <input
-                        type="text"
-                        id="nome"
-                        name="nome"
-                        required
-                    >
-                </p>
+                        <li class="index.html">
+                            <a class="nav-link"
+                                href="index.html">
+                                Início
+                            </a>
+                        </li>
 
-                <p>
-                    <label for="email">E-mail:</label><br>
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        required
-                    >
-                </p>
+                        <li class="produtos.petsececis.html">
+                            <a class="nav-link"
+                                href="produtos.petsececis.html">
+                                Produtos
+                            </a>
+                        </li>
 
-                <p>
-                    <label for="telefone">Telefone:</label><br>
-                    <input
-                        type="tel"
-                        id="telefone"
-                        name="telefone"
-                    >
-                </p>
+                        <li class="serviços.petsececis.html">
+                            <a class="nav-link active"
+                                href="serviços.petsececis.html">
+                                Serviços
+                            </a>
+                        </li>
 
-                <p>
-                    <label for="assunto">Assunto:</label><br>
-                    <input
-                        type="text"
-                        id="assunto"
-                        name="assunto"
-                    >
-                </p>
+                        <li class="agendamento.petsececis.html">
+                            <a class="nav-link"
+                                href="agendamento.petsececis.html">
+                                Agendamento
+                            </a>
+                        </li>
 
-                <p>
-                    <label for="mensagem">Mensagem:</label><br>
+                        <li class="contatos.petsececis.html">
+                            <a class="nav-link"
+                                href="contatos.petsececis.html">
+                                Contato
+                            </a>
+                        </li>
 
-                    <textarea
-                        id="mensagem"
-                        name="mensagem"
-                        rows="6"
-                        cols="40"
-                    ></textarea>
-                </p>
+                        <li class="ajuda.petsececis.html">
+                            <a class="nav-link"
+                                href="ajuda.petsececis.html">
+                                Ajuda
+                            </a>
+                        </li>
 
-                <p>
-                    <input
-                        type="submit"
-                        value="Enviar mensagem"
-                    >
-                </p>
+                    </ul>
 
-            </form>
+                </div>
 
-        </section>
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- CONTEÚDO -->
+    <main id="conteudo"
+        class="container py-5">
+
+        <div class="row g-4">
+
+
+            <!-- INFORMAÇÕES -->
+            <section class="col-lg-5">
+
+                <div class="info-card h-100">
+
+                    <h1>
+                        Contatos
+                    </h1>
+
+                    <p>
+                        Entre em contato conosco para tirar dúvidas,
+                        obter informações sobre produtos ou agendar
+                        nossos serviços.
+                    </p>
+
+                    <p>
+                        <strong>
+                            Telefone:
+                        </strong>
+
+                        (11) 99999-9999
+                    </p>
+
+                    <p>
+                        <strong>
+                            E-mail:
+                        </strong>
+
+                        contato@petsececis.com.br
+                    </p>
+
+                    <p>
+                        <strong>
+                            Endereço:
+                        </strong>
+
+                        Rua dos dogs e cats, 100 -
+                        São Paulo - SP
+                    </p>
+
+                    <p>
+                        <strong>
+                            Horário:
+                        </strong>
+
+                        Segunda a sábado,
+                        das 09h às 18h.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- FORMULÁRIO -->
+            <section class="col-lg-7">
+
+                <div class="form-card">
+
+                    <h2>
+                        Envie uma mensagem
+                    </h2>
+
+
+                    <form id="formContato"
+                        novalidate>
+
+
+                        <!-- Nome -->
+                        <div class="mb-3">
+
+                            <label for="nomeContato"
+                                class="form-label">
+
+                                Nome *
+
+                            </label>
+
+                            <input id="nomeContato"
+                                name="nomeContato"
+                                type="text"
+                                class="form-control"
+                                placeholder="Seu nome"
+                                required>
+
+                        </div>
+
+
+                        <!-- E-mail -->
+                        <div class="mb-3">
+
+                            <label for="emailContato"
+                                class="form-label">
+
+                                E-mail *
+
+                            </label>
+
+                            <input id="emailContato"
+                                name="emailContato"
+                                type="email"
+                                class="form-control"
+                                placeholder="seuemail@exemplo.com"
+                                required>
+
+                        </div>
+
+
+                        <!-- Telefone -->
+                        <div class="mb-3">
+
+                            <label for="telefoneContato"
+                                class="form-label">
+
+                                Telefone
+
+                            </label>
+
+                            <input id="telefoneContato"
+                                name="telefoneContato"
+                                type="tel"
+                                class="form-control"
+                                placeholder="(11) 99999-9999">
+
+                        </div>
+
+
+                        <!-- Assunto -->
+                        <div class="mb-3">
+
+                            <label for="assunto"
+                                class="form-label">
+
+                                Assunto
+
+                            </label>
+
+                            <input id="assunto"
+                                name="assunto"
+                                type="text"
+                                class="form-control"
+                                placeholder="Como podemos ajudar?">
+
+                        </div>
+
+
+                        <!-- Mensagem -->
+                        <div class="mb-3">
+
+                            <label for="mensagem"
+                                class="form-label">
+
+                                Mensagem
+
+                            </label>
+
+                            <textarea id="mensagem"
+                                name="mensagem"
+                                class="form-control"
+                                rows="5"
+                                placeholder="Digite sua mensagem">
+                            </textarea>
+
+                        </div>
+
+
+                        <button class="btn btn-primary"
+                            type="submit">
+
+                            Enviar mensagem
+
+                        </button>
+
+
+                        <!-- Mensagem do JavaScript -->
+                        <div id="mensagemContato"
+                            class="mt-3"
+                            aria-live="polite">
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </section>
+
+        </div>
 
     </main>
 
-    <hr>
 
-    <footer>
+    <!-- RODAPÉ -->
+    <footer class="site-footer">
 
-        <h3>Pet & Cia</h3>
+        <div class="container text-center">
 
-        <p>Produtos e serviços para o bem-estar do seu pet.</p>
+            <h3>
+                Pets & Cecis
+            </h3>
 
-        <p>São Paulo - SP</p>
+            <p>
+                Produtos e serviços para o bem-estar do seu pet.
+            </p>
 
-    
+            <p>
+                São Paulo - SP
+            </p>
 
-        <p>Desenvolvido por Cecília de Carvalho</p>
+            <p>
+                Desenvolvido por Cecília de Carvalho
+            </p>
 
-        <p>&copy; 2026 Pet & Cia. Todos os direitos reservados.</p>
+            <p>
+                © 2026 Pets & Cecis. Todos os direitos reservados.
+            </p>
+
+        </div>
 
     </footer>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
