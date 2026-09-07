@@ -3,369 +3,434 @@
 
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PET'S & CECIS - Produtos</title>
+
+    <meta name="description"
+        content="Pets & Cecis - produtos e serviços para cuidar do seu melhor amigo.">
+
+    <title>Pets & Cecis | Início</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+
+    <!-- CSS próprio -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>PETS & CECIS</h1>
-        <p>Tudo para cuidar do seu melhor amigo!</p>
+    <!-- Recurso de acessibilidade: permite pular diretamente para o conteúdo -->
+    <a class="skip-link" href="#conteudo">
+        Pular para o conteúdo principal
+    </a>
 
-        <nav>
-            <a href="index.html">Início</a>
-            <a href="produtos.petsececis.html">Produtos</a>
-            <a href="serviços.petsececis.html">Serviços</a>
-            <a href="contatos.petsececis.html">Contato</a>
+    <!-- CABEÇALHO -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top"
+            aria-label="Navegação principal">
+
+            <div class="container">
+
+                <a class="navbar-brand fw-bold" href="index.html">
+                    🐾 PETS & CECIS
+                </a>
+
+                <!-- Menu responsivo do Bootstrap -->
+                <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menu"
+                    aria-controls="menu"
+                    aria-expanded="false"
+                    aria-label="Abrir menu">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                                <div class="collapse navbar-collapse"
+                    id="menu">
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="index.html">
+                            <a class="nav-link"
+                                href="index.html">
+                                Início
+                            </a>
+                        </li>
+
+                        <li class="produtos.petsececis.html">
+                            <a class="nav-link"
+                                href="produtos.petsececis.html">
+                                Produtos
+                            </a>
+                        </li>
+
+                        <li class="serviços.petsececis.html">
+                            <a class="nav-link active"
+                                href="serviços.petsececis.html">
+                                Serviços
+                            </a>
+                        </li>
+
+                        <li class="agendamento.petsececis.html">
+                            <a class="nav-link"
+                                href="agendamento.petsececis.html">
+                                Agendamento
+                            </a>
+                        </li>
+
+                        <li class="contatos.petsececis.html">
+                            <a class="nav-link"
+                                href="contatos.petsececis.html">
+                                Contato
+                            </a>
+                        </li>
+
+                        <li class="ajuda.petsececis.html">
+                            <a class="nav-link"
+                                href="ajuda.petsececis.html">
+                                Ajuda
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
         </nav>
+
     </header>
 
-    <hr>
 
-    <main>
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main id="conteudo">
 
-        <h2>Confira nossos produtos separados por categoria.</h2>
+        <!-- CAROUSEL / SLIDER -->
+        <section aria-label="Destaques">
 
-       
+            <div id="carouselPets"
+                class="carousel slide"
+                data-bs-ride="carousel">
 
-        <!-- ACESSÓRIOS -->
+                <!-- Indicadores -->
+                <div class="carousel-indicators">
 
-        <section>
+                    <button type="button"
+                        data-bs-target="#carouselPets"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1">
+                    </button>
 
-            <h1>Acessórios</h1>
+                    <button type="button"
+                        data-bs-target="#carouselPets"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2">
+                    </button>
 
-            <article>
+                    <button type="button"
+                        data-bs-target="#carouselPets"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3">
+                    </button>
 
-                <h3>Cama Confortável para Cachorro</h3>
+                </div>
 
-                <img
-                    src="https://paccostore.com.br/cdn/shop/files/LISA-AZUL-NOVA.jpg?v=1743515585"
-                    alt="Cama confortável para cachorro"
-                    width="400"
-                    height="350"
-                >
 
-                <p>
-                    Cama macia e confortável de linho para proporcionar
-                    descanso e bem-estar ao seu pet.
-                </p>
+                <!-- Slides -->
+                <div class="carousel-inner">
 
-                <p>
-                    <strong>R$ 89,90</strong>
-                </p>
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
 
-            </article>
+                        <img src="https://s3.nuvemvet.com/blog/wp-content/uploads/2022/02/03124824/banho-e-tosa-.jpg"
+                            class="d-block w-100 carousel-img"
+                            alt="Cachorro recebendo banho e tosa">
 
-            <article>
+                        <div class="carousel-caption">
 
-                <h3>Brinquedo para Cachorro</h3>
+                            <h1>
+                                Tudo para cuidar do seu melhor amigo!
+                            </h1>
 
-                <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2lFq1idp-QzL-UypWrmo16xo3QLE4kObn1oLm9PloWQ&s=10"
-                    alt="Brinquedo para cachorro"
-                    width="400"
-                    height="350"
-                >
+                            <p>
+                                Produtos, banho, tosa e agendamento.
+                            </p>
 
-                <p>
-                    Brinquedo Pet de Roer Atóxico e Ultra Resistente para Cães
+                            <a href="agendamento.petsececis.html"
+                                class="btn btn-primary">
+                                Agendar serviço
+                            </a>
 
-                </p>
+                        </div>
 
-                <p>
-                    <strong>R$ 29,90</strong>
-                </p>
+                    </div>
 
-            </article>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+
+                        <img src="https://paccostore.com.br/cdn/shop/files/LISA-AZUL-NOVA.jpg?v=1743515585"
+                            class="d-block w-100 carousel-img"
+                            alt="Cama confortável para cachorro">
+
+                        <div class="carousel-caption">
+
+                            <h2>
+                                Conforto para o seu pet
+                            </h2>
+
+                            <p>
+                                Confira nossos produtos.
+                            </p>
+
+                            <a href="produtos.petsececis.html"
+                                class="btn btn-primary">
+                                Ver produtos
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+
+                        <img src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/12/uber-pet-cachorro-carro.jpg?w=1200&h=1200&crop=1"
+                            class="d-block w-100 carousel-img"
+                            alt="Cachorro em transporte para atendimento pet">
+
+                        <div class="carousel-caption">
+
+                            <h2>
+                                Tele-busca
+                            </h2>
+
+                            <p>
+                                Escolha a opção com transporte.
+                            </p>
+
+                            <a href="agendamento.petsececis.html"
+                                class="btn btn-primary">
+                                Agendar
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Botão anterior -->
+                <button class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselPets"
+                    data-bs-slide="prev"
+                    aria-label="Slide anterior">
+
+                    <span class="carousel-control-prev-icon"></span>
+
+                </button>
+
+
+                <!-- Botão próximo -->
+                <button class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselPets"
+                    data-bs-slide="next"
+                    aria-label="Próximo slide">
+
+                    <span class="carousel-control-next-icon"></span>
+
+                </button>
+
+            </div>
 
         </section>
 
-        <hr>
 
-        <!-- RAÇÕES -->
+        <!-- APRESENTAÇÃO -->
+        <section class="container py-5">
 
-        <section>
+            <div class="text-center mb-5">
 
-            <h2>Rações</h2>
+                <h2>
+                    Bem-vindo à Pets & Cecis
+                </h2>
 
-            <article>
-
-    
-
-                <img
-                    src="https://polipet.fbitsstatic.net/img/p/racao-origens-para-cachorros-adultos-sabor-carne-e-careais-20-kg-99267/293340-1.jpg?w=350&h=350&v=no-value"
-                    alt="Ração Origens para Cachorros Adultos sabor Carne e Careais 20 kg"
-                    width="400"
-                    height="350"
-                >
-
-                <p>
-                    Ração Origens para Cachorros Adultos sabor Carne e Careais 20 kg
+                <p class="lead">
+                    Produtos e serviços para o bem-estar do seu pet.
                 </p>
 
-                <p>
-                    <strong>R$ 129,90</strong>
-                </p>
+            </div>
 
-            </article>
 
-            <article>
+            <div class="row g-4">
 
-               
-                <img
-                    src="https://static.petnautasloja.com.br/public/nunesagropecuaria/imagens/produtos/racao-golden-selecao-natural-para-gatos-filhotes-sabor-frango-e-arroz-1kg-5902.png"
-                    alt="Ração para gatos adultos"
-                    width="400"
-                    height="350"
-                >
+                <!-- Produtos -->
+                <div class="col-md-4">
 
-                <p>
-                    Ração Golden Seleção Natural para Gatos Filhotes Sabor Frango e Arroz 1Kg
+                    <div class="info-card h-100">
 
-                </p>
+                        <div class="emoji">
+                            🛍️
+                        </div>
 
-                <p>
-                    <strong>R$ 139,90</strong>
-                </p>
+                        <h3>
+                            Produtos
+                        </h3>
 
-            </article>
+                        <p>
+                            Acessórios, rações e higiene e limpeza.
+                        </p>
+
+                        <a href="produtos.petsececis.html"
+                            class="btn btn-outline-primary">
+                            Ver produtos
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Serviços -->
+                <div class="col-md-4">
+
+                    <div class="info-card h-100">
+
+                        <div class="emoji">
+                            🛁
+                        </div>
+
+                        <h3>
+                            Serviços
+                        </h3>
+
+                        <p>
+                            Banho e Tosa com ou sem tele-busca.
+                        </p>
+
+                        <a href="serviços.petsececis.html"
+                            class="btn btn-outline-primary">
+                            Ver serviços
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Agendamento -->
+                <div class="col-md-4">
+
+                    <div class="info-card h-100">
+
+                        <div class="emoji">
+                            📅
+                        </div>
+
+                        <h3>
+                            Agendamento
+                        </h3>
+
+                        <p>
+                            Escolha dia e horário.
+                        </p>
+
+                        <a href="agendamento.petsececis.html"
+                            class="btn btn-outline-primary">
+                            Agendar
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </section>
 
-        <hr>
 
-        <!-- HIGIENE -->
+        <!-- FUNÇÃO TEMPORAL -->
+        <section class="container pb-5">
 
-        <section>
+            <div class="time-box text-center"
+                aria-live="polite">
 
-            <h2>Higiene e Limpeza</h2>
-
-            <article>
-
-                
-
-                <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFziGTsaphlWFACUzXbKPxmtx6MEH1bbqakKgz_TKwNdYj0taflavdFr3u&s=10"
-                    alt="Tapete higiênico para cães"
-                    width="400"
-                    height="350"
-                >
+                <h2>
+                    Horário de atendimento
+                </h2>
 
                 <p>
-                    Tapete Sanitário Higienico Absorvente Descartavel Slim Pet Cães Cachorro 80x60 07 Unidades
+                    Segunda a sábado, das 09h às 18h.
                 </p>
 
-                <p>
-                    <strong>R$ 59,90</strong>
+                <!-- JavaScript colocará a data e hora aqui -->
+                <p id="dataHoraAtual">
+                    Carregando data e hora...
                 </p>
 
-            </article>
-
-            <article>
-
-                
-
-                <img
-                    src="https://cobasi.vteximg.com.br/arquivos/ids/1088902-560-560.webp"
-                    alt="Fraldas descartáveis para cães"
-                    width="400"
-                    height="350"
-                >
-
-                <p>
-                    Fralda Higiênica Ecofralda Macho Dogs Care 12 unidades P
+                <!-- JavaScript mostrará se está aberto -->
+                <p id="statusAtendimento"
+                    class="fw-bold mb-0">
                 </p>
 
-                <p>
-                    <strong>R$ 39,90</strong>
-                </p>
-
-            </article>
+            </div>
 
         </section>
 
     </main>
-<hr>
-
- <h1>Nossos Serviços</h1>
 
 
+    <!-- RODAPÉ -->
+    <footer class="site-footer">
 
- <section>
+        <div class="container text-center">
 
-     <h3>Banho e Tosa sem Tele-busca</h3>
-
-     <img
-         src="https://s3.nuvemvet.com/blog/wp-content/uploads/2022/02/03124824/banho-e-tosa-.jpg"
-         alt="Banho e tosa"
-         width="400"
-         height="350"
-     >
-
-     <p>
-         Banho completo, secagem, escovação e tosa
-         higiênica.
-     </p>
-
-     <p>
-         <strong>Tele-busca:</strong> Não incluso
-     </p>
-
-     <p>
-         <strong>Valor: R$ 65,00</strong>
-     </p>
-
- </section>
-
- <hr>
-
- <section>
-
-     <h3>Banho e Tosa com Tele-busca</h3>
-
-     <img
-         src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/12/uber-pet-cachorro-carro.jpg?w=1200&h=1200&crop=1"
-         alt="Banho e tosa com tele-busca"
-         width="400"
-         height="350"
-     >
-
-     <p>
-         Serviço completo de banho e tosa com transporte
-         do animal até o petshop.
-     </p>
-
-     <p>
-         O pet é buscado no endereço informado e,
-         após o serviço, é levado de volta.
-     </p>
-
-     <p>
-         <strong>Tele-busca:</strong> Sim
-     </p>
-
-     <p>
-         <strong>Valor: R$ 85,00</strong>
-     </p>
-
- </section>
-
-    <section>
-
-<hr>
-        <h1>Fale com  Pets & Cecis</h1>
-
-        <p>
-            Entre em contato conosco para tirar dúvidas,
-            obter informações sobre produtos ou agendar
-            nossos serviços.
-        </p>
-
-        <p>
-            <strong>Telefone:</strong>
-            (11) 99999-9999
-        </p>
-
-        <p>
-            <strong>E-mail:</strong>
-            contato@petsececis.com.br
-        </p>
-
-        <p>
-            <strong>Endereço:</strong>
-            Rua dos dogs e cats, 100 - São Paulo - SP
-        </p>
-
-        <p>
-            <strong>Horário de funcionamento:</strong>
-            Segunda a sábado, das 09h às 18h.
-        </p>
-
-    </section>
-
-    <section>
-
-        <h3>Envie uma mensagem</h3>
-
-        <form>
+            <h3>
+                Pets & Cecis
+            </h3>
 
             <p>
-                <label for="nome">Nome:</label><br>
-                <input
-                    type="text"
-                    id="nome"
-                    name="nome"
-                    required
-                >
+                Produtos e serviços para o bem-estar do seu pet.
             </p>
 
             <p>
-                <label for="email">E-mail:</label><br>
-                <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                >
+                São Paulo - SP
             </p>
 
             <p>
-                <label for="telefone">Telefone:</label><br>
-                <input
-                    type="tel"
-                    id="telefone"
-                    name="telefone"
-                >
+                Desenvolvido por Cecília de Carvalho
             </p>
 
             <p>
-                <label for="assunto">Assunto:</label><br>
-                <input
-                    type="text"
-                    id="assunto"
-                    name="assunto"
-                >
+                © 2026 Pets & Cecis. Todos os direitos reservados.
             </p>
 
-            <p>
-                <label for="mensagem">Mensagem:</label><br>
-
-                <textarea
-                    id="mensagem"
-                    name="mensagem"
-                    rows="6"
-                    cols="40"
-                ></textarea>
-            </p>
-
-            <p>
-                <input
-                    type="submit"
-                    value="Enviar mensagem"
-                >
-            </p>
-
-        </form>
-
-    </section>
-
-
-    <hr>
-
-    <footer>
-
-        <h3>Pets & Cecis</h3>
-
-        <p>Produtos e serviços para o bem-estar do seu pet.</p>
-
-        <p>São Paulo - SP</p>
-
-        <p>Desenvolvido por Cecília de Carvalho</p>
-
-        <p>&copy; 2026 Pets & Cecis. Todos os direitos reservados.</p>
+        </div>
 
     </footer>
 
+
+    <!-- JavaScript do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <!-- JavaScript próprio -->
+    <script src="js/script.js"></script>
+
 </body>
+
 </html>
